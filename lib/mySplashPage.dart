@@ -18,7 +18,7 @@ class _MySplashPageState extends State<MySplashPage> {
     Timer(const Duration(seconds: 5), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const HomePage()),
+        MaterialPageRoute(builder: (context) => HomePage()),
       );
     });
   }
